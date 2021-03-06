@@ -7,7 +7,7 @@ A simple client/server program that simulates a food delivery system in C.
 
 
 
-The program includes four entity, which communicate with each other using TCP connections. Every message sent is either a character or a string.
+The program includes four entities, which communicate with each other using TCP connections. Every message sent is either a character or a string.
 The idea is that a client can choose which restaurant order from and then make the order. The order is sent to the chosen restaurant, which then submits it to its riders. A rider can choose to accept or refuse the order; the first rider who accepts will actually deliver the order.
 Every message needs to pass through the server in order to reach its destination.
 
